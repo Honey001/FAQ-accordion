@@ -111,7 +111,7 @@ body {
 	line-height: var(--space24);
 	color: var(--PURPLE600);
 	opacity: 1;
-	max-height: 31.25rem;
+	transform: scaleY(1);
 	overflow: hidden;
 	transition: 0.5s opacity ease-in-out, 0.5s max-height ease-in-out;
 }
@@ -161,7 +161,7 @@ hr {
 }
 .hidden {
 	opacity: 0;
-	max-height: 0;
+	transform: scaleY(0);
 	overflow: hidden;
 }
 @media screen and (min-width: 64.063rem) {
