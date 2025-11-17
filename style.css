@@ -187,7 +187,4 @@ hr {
 	.description-title:hover {
 		color: var(--VIOLET);
 	}
-	.content-container {
-		gap: 3.063rem;
-	}
 }
