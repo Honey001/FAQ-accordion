@@ -169,7 +169,7 @@ hr {
 		background-image: url("./assets/images/background-pattern-desktop.svg");
 	}
 	.container {
-		gap: var(--space32);
+		gap: var(--space24);
 		padding: var(--space40);
 		margin-inline: 0;
 		max-width: 37.5rem;
